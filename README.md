@@ -43,4 +43,4 @@ Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H., et
 1696. https://doi.org/10.3758/s13428-020-01516-y
 
 <a id="Pham2023"></a>
-Pham, V. T., Nielsen, J. B., Kofoed, K. F., K ̈uhl, J. T., & Jensen, A. K. (2023). Joint alignment of multivariate quasi-periodic functional data using deep learning. https://doi.org/10.48550/arXiv.2312.09422
+Pham, V. T., Nielsen, J. B., Kofoed, K. F., Kühl, J. T., & Jensen, A. K. (2023). Joint alignment of multivariate quasi-periodic functional data using deep learning. https://doi.org/10.48550/arXiv.2312.09422
