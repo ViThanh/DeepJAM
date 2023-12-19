@@ -1,7 +1,7 @@
 # Joint Alignment of Multivariate Quasi-Periodic Functional Data Using Deep Learning (DeepJAM)
 
 ## Summary
-This repository contains the implementation of the DeepJAM algorithm, using R implementations of keras ([Cholet et al., 2015](#Chollet2015), [Allaire & Chollet, 2022](#Allaire2022keras)) and tensorflow ([Abadi et al., 2015](#Abadi2015), [Allaire & Tang, 2022](#Allaire2022tensorflow)). Furthermore, extra packages are needed for this implementation, namely Python module `neurokit2` ([Makowski et al. 2021](#Makowski2021)) and tensorflow package `tensorflow_probability`. Refer to the [`reticulate`](https://rstudio.github.io/reticulate/articles/python_packages.html)  and `keras` vignettes for instructions on installing extra packages.
+This repository contains the implementation of the DeepJAM algorithm ([Pham et al., 2023](#Pham2023)), using R implementations of keras ([Cholet et al., 2015](#Chollet2015), [Allaire & Chollet, 2022](#Allaire2022keras)) and tensorflow ([Abadi et al., 2015](#Abadi2015), [Allaire & Tang, 2022](#Allaire2022tensorflow)). Furthermore, extra packages are needed for this implementation, namely Python module `neurokit2` ([Makowski et al. 2021](#Makowski2021)) and tensorflow package `tensorflow_probability`. Refer to the [`reticulate`](https://rstudio.github.io/reticulate/articles/python_packages.html)  and `keras` vignettes for instructions on installing extra packages.
 
 The file [Example.R](Example.R) contains a use example of the algorithm on simulated data that is placed in the [Data](Data/) subdirectory. The [Models](Models/) subdirectory contains the pre-trained neural network models that can be loaded into the environment. All the functions and libraries necessary for the algorithm can be found in the [Code](Code/) subdirectory.
 
@@ -41,3 +41,6 @@ Chollet, F., et al. (2015). Keras. https://keras.io
 <a id="Makowski2021"></a>
 Makowski, D., Pham, T., Lau, Z. J., Brammer, J. C., Lespinasse, F., Pham, H., et al. (2021). NeuroKit2: A python toolbox for neurophysiological signal processing. Behavior Research Methods, 53 (4), 1689–
 1696. https://doi.org/10.3758/s13428-020-01516-y
+
+<a id="Pham2023"></a>
+Pham, V. T., Nielsen, J. B., Kofoed, K. F., K ̈uhl, J. T., & Jensen, A. K. (2023). Joint alignment of multivariate quasi-periodic functional data using deep learning. https://doi.org/10.48550/arXiv.2312.09422
